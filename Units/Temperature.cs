@@ -265,7 +265,6 @@ namespace CF314.Units
         /// <summary>
         /// Invokes the <see cref="Changed"/>-Event.
         /// </summary>
-        /// <param name="e">Unused. Pass <c>new EventArgs()</c>.</param>
         protected virtual void OnChanged()
         {
             Changed?.Invoke();
